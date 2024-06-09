@@ -1,0 +1,13 @@
+str1=input()
+str2=input()
+print("The first string is ",str1)
+print("The second string is ",str2)
+l1=len(str1)
+l2=len(str2)
+print("Length of first string is ",l1)
+print("Length of second string is ",l2)
+con=str1+str2
+print("The concatenated string is ",con)
+s=str1.upper()
+print("Uppercase of first string: ",s)
+print("First string is alphabetically before seconfd string.")
