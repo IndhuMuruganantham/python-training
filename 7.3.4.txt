@@ -1,0 +1,6 @@
+def convert(string):
+	lowercase=string.lower()
+	return lowercase
+string=input()
+l=convert(string)
+print("The lowercase string is",l)
