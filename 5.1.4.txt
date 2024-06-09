@@ -1,0 +1,29 @@
+n=int(input())
+print("Enter size: ",n)
+arr=[]
+print("Array elements")
+for i in range(0,n):
+	m=int(input())
+	arr.append(m)
+print(arr)
+print("1. Insert a number")
+print("2. Delete a number")
+print(3. Exit")
+choice=int(input())
+if choice==1:
+	location=int(input())
+	for i in range(0,n):
+		if i==location:
+			del.arr[i]
+			break
+print("deleted array: ",arr)
+if choice==2:
+	location=int(input())
+	num=int(input())
+	for i in range(0,n):
+		if i==location:
+			arr[i]=num
+print(arr)
+if choice==3:
+	print("The program is exited")
+	break
