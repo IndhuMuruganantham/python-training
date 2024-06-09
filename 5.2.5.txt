@@ -1,0 +1,18 @@
+n=int(input())
+li=[]
+c=0
+print("Enter array size: ",n)
+print(f"Enter {n} array elements: ")
+for i in range(0,n):
+	m=int(input())
+	li.append(m)
+print("The repetitive elements are ")
+for i in range(0,n):
+	for j in range(i+1,n):
+		if li[i]==li[j]:
+			print(li[j])
+			c=c+1
+if n==0:
+	print("Invalid input")
+if c==0:
+	print("No repetitive elements")
