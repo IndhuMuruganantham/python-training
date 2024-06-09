@@ -1,0 +1,20 @@
+import math
+def lsquart(li):
+	l=-1
+	for num in li:
+		if math.isqrt(num)**2!=num:
+			l=max(l,num)
+	return l
+n=int(input())
+li=[]
+print("Enter array size: ",n)
+print(f"Enter {n} array elements: ")
+for i in range(0,n):
+	m=int(input())
+	li.append(m)
+result=lsquart(li)
+if result==-1:
+	print("-1")
+else:
+	print(result)
+		
