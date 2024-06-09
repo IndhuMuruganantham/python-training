@@ -1,0 +1,15 @@
+n=int(input())
+li=[]
+for i in range(0,n):
+	m=int(input())
+	li.append(m)
+if n==0:
+	print("Invalid input")
+else:
+	for i in range(0,n):
+		if li[i]!=0:
+				li[j++]=li[i]
+	while j<n:
+		li[j++]=0
+	for i in range(0,n):
+		print(li[i])
