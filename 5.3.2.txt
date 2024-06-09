@@ -1,0 +1,12 @@
+n=int(input())
+li=[]
+print("Enter array size: ",n)
+print(f"Enter {n} array elements")
+for i in range(0,n):
+	m=int(input())
+	li.append(m)
+if n!=0:
+	c=pow(2,n)
+	print(c)
+else:
+	print("Invalid input")
