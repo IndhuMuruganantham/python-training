@@ -1,0 +1,12 @@
+string=input()
+o=input()
+n=input()
+listed_string=list(string)
+length=len(listed_string)
+for i in range(0,length):
+	if listed_string[i]==o:
+		listed_string[i]=n
+		break
+modified_string="".join(listed_string)
+		
+print(modified_string)
