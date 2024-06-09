@@ -1,0 +1,13 @@
+def find(str1,str2):
+	listed_str1=list(str1)
+	listed_str2=list(str2)
+	listed_str1.sort()
+	listed_str2.sort()
+	for i in range(len(str1)):
+		if listed_str1[i]!=listed_str2[i]:
+			return listed_str2[i]
+	return listed_str2[-1]
+str1=input()
+str2=input()
+extra=find(str1,str2)
+print("The extra character is ",extra)
