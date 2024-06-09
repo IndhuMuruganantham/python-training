@@ -6,8 +6,8 @@ for i in range(0,n):
 	m=int(input())
 	arr.append(m)
 print(arr)
-print("1. Insert a number")
-print("2. Delete a number")
+print("1. Delete a number")
+print("2. Insert a number")
 print(3. Exit")
 choice=int(input())
 if choice==1:
