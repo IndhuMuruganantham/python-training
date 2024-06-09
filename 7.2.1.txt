@@ -1,0 +1,16 @@
+str1=input()
+str2=input()
+print("The first string is ",str1)
+print("The second string is ",str2)
+l1=len(str1)
+l2=len(str2)
+if l1==l2:
+	print(f"{str1} length equal to {str2} length")
+else:
+	print(f"{str1} length not equal to {str2} length")
+if l1<l2:
+	print(f"{str1} is less than {str2}")
+elif l1==l2:
+	print(f"{str1} is less than {str2}")
+else:
+	print(f"{str1} is greater than {str2}")
