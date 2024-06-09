@@ -1,0 +1,6 @@
+string=input()
+decimal=int(string,2)
+if decimal%3==0:
+    print("yes")
+else:
+    print("No")
