@@ -1,0 +1,16 @@
+def large(arr):
+	largest=max(arr)
+	return largest
+
+def small(arr):
+	smallest=min(arr)
+	return smallest
+
+li=[]
+n=int(input())
+for i in range(0,n):
+	m=int(input())
+	li.append(m)
+print(li)
+print("The largest number in the array is ",large(li))
+print("The smallest number in the array is ",small(li))
