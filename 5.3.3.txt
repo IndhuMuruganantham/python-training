@@ -1,0 +1,18 @@
+n=int(input())
+li=[]
+last=-999
+if n==0:
+	print("Invalid array size")
+else:
+	for i in range(0,n):
+		m=int(input())
+		li.append(m)
+	for i in range(0,n-1):
+		if li[i]==li[i+1]:
+			last=li[i]
+			index=i+1
+if last==-999:
+	print("No duplicate found")
+else:
+	print("Last index: ",index)
+	print("Last duplicate item: ",last)
