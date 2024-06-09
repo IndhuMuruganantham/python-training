@@ -1,0 +1,22 @@
+import math 
+n=int(input())
+li=[]
+s=0
+c=0
+print("Enter the value: ",n)
+print("Enter values: ")
+for i in range(0,n):
+	m=int(input())
+	li.append(m)
+	s=s+m
+mean=s/n
+print("Mean= ",mean)
+for i in range(0,n):
+    c=c+pow(li[i]-mean,2)
+variance=c/n
+deviation=math.sqrt(variance)
+print("Variance= ",variance)
+print("Deviation= ",deviation)
+    
+
+	
