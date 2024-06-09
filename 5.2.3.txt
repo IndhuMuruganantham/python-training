@@ -1,0 +1,8 @@
+n=int(input())
+li=[]
+s=0
+for i in range(0,n):
+	m=input()
+	li.append(m)
+	s=s+m
+print("The sum of all elements in the given array is ",s)
