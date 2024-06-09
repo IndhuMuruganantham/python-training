@@ -1,0 +1,13 @@
+n=int(input())
+li=[]
+c=0
+for i in range(0,n):
+	m=int(input())
+	li.append(m)
+print("The unique elements found in the given array are ")
+for i in range(0,n):
+	for j in range(i+1,n):
+		if li[i]==li[j]:
+			c=c+1
+	if c==0:
+	    print(li[i])
